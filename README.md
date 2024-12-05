@@ -18,12 +18,14 @@
 - Réserver des billets pour des spectacles.
 
 ### 📈 Problèmes rencontrés :
-Avec une forte augmentation du nombre d’utilisateurs, des problèmes de performances et des incohérences ont été identifiés, nécessitant des optimisations.
+Avec une forte augmentation du nombre d’utilisateurs (1 000 --> 100 000), des problèmes de performances et des incohérences ont été identifiés, nécessitant des optimisations.
 
 ### 🎯 Objectifs du projet :
 - **Performance** :
-  - Optimiser `RewardCentral` pour gérer 100 000 utilisateurs en moins de 20 minutes.
-  - Optimiser `GpsUtil` pour obtenir les emplacements de 100 000 utilisateurs en moins de 15 minutes.
+  - Optimiser `RewardCentral` pour gérer 100 000 utilisateurs en moins de 20 minutes. 
+    -  **Résultat obtenu : ~= 3 secondes**.
+  - Optimiser `GpsUtil` pour obtenir les emplacements de 100 000 utilisateurs en moins de 15 minutes. 
+    -  **Résultat obtenu : ~= 3 secondes**.
 - **Fonctionnalité** :
   - Corriger le retour invalide de `GetNearbyAttractions` et implémenter un retour JSON structuré.
 - **Tests et Documentation** :
